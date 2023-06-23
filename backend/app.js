@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const sauceRoutes = require('./routes/sauces');
 const userRoutes = require('./routes/user');
 
+const bodyParser = require('body-parser'); // Permet d'extraire l'objet JSON des requêtes POST
 
 const app = express();
 
