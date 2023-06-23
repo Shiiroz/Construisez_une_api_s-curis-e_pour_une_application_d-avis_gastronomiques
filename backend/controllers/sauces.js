@@ -6,7 +6,7 @@ const fs = require('fs');
 // Permet de créer une nouvelle sauce
 
 exports.createSauce = (req, res, next) => {
-  let sauceData;
+  //let sauceData;
 
   try {
     sauceData = JSON.parse(req.body.sauce);
